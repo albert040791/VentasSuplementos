@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+    <header id="header" class="header">
+        <div class="container">
+            <div class="row">
+                <div class="four columns">
+                    <img src="img/logo.jpeg" id="logo">
+                </div>
+                <div class="two columns u-pull-right">
+                    <ul>
+                        <li class="submenu">
+                            <img src="img/cart.png" id="img-carrito">
+                            <div id="carrito">
+
+                                <table id="lista-carrito" class="u-full-width">
+                                    <thead>
+                                        <tr>
+                                            <th>Imagen</th>
+                                            <th>Nombre</th>
+                                            <th>Precio</th>
+                                            <th>Cantidad</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+
+                                <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div id="hero">
+        <div class="container">
+            <div class="row">
+                <div class="six columns">
+                    <div class="contenido-hero">
+                        <h2>Entrena con ayuda...</h2>
+                        <p>Todos los suplementos en promoción</p>
+                        <form action="#" id="busqueda" method="post" class="formulario">
+                            <input class="u-full-width" type="text" placeholder="¿Que te gustaría comenzar a tomar?"
+                                id="buscador">
+                            <input type="submit" id="submit-buscador" class="submit-buscador">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="barra">
+        <div class="container">
+            <div class="row">
+                <div class="four columns icono icono1">
+                    <p>20,000 Productos en línea <br>
+                        Explora los categorías más recientes</p>
+                </div>
+                <div class="four columns icono icono2">
+                    <p>Ayuda de Expertos <br>
+                        Informate con los mejores</p>
+                </div>
+                <div class="four columns icono icono3">
+                    <p>Podes devolver tu compra <br>
+                        Productos de calidad</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="lista-suplementos" class="container">
+        <h1 id="encabezado" class="encabezado">Venta de Suplementos</h1>
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/imagen1.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Proteína Fit Whey 2 lbs + Killer 5.0 + Bcaa 5000 </h4>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$200 <span class="u-pull-right ">$75</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/imagen2.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Hero Test x120 Comprimidos de Genetic Aumento de Testo
+                        </h4>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$200 <span class="u-pull-right ">$48</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/imagen3.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Proteína AFA Whey 7900 x1 kg de Gentech
+                        </h4>
+                        
+                        <img src="img/estrellas.png">
+                        <p class="precio">$200 <span class="u-pull-right ">$78</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+
+        </div> <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/imagen4.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Amino Total Pulver 1 kg Whey Protein de Alta Calidad con Aminos
+                        </h4>
+                      
+                        <img src="img/estrellas.png">
+                        <p class="precio">$200 <span class="u-pull-right ">105</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="4">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/imagen5.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Proteína Usa Whey Protein 2 lbs (907 grs) de HTN
+                        </h4>
+                       
+                        <img src="img/estrellas.png">
+                        <p class="precio">$200 <span class="u-pull-right ">$90</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="5">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/imagen6.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Super BCAA 5000 de Generation Fit 250 grs</h4>
+                       
+                        <img src="img/estrellas.png">
+                        <p class="precio">$200 <span class="u-pull-right ">$87</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="6">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/imagen7.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Colageno Hidrolizado con Vitamina C Pulver x 240 grs </h4>
+                        
+                        <img src="img/estrellas.png">
+                        <p class="precio">$200 <span class="u-pull-right ">$79</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="7">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/imagen8.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Proteína Premium o Platinum Whey Protein 2 Lbs Star Nutrition</h4>
+        
+                        <img src="img/estrellas.png">
+                        <p class="precio">$200 <span class="u-pull-right ">$76</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="8">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/imagen9.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Cosecha tus propias frutas y verduras</h4>
+                        
+                        <img src="img/estrellas.png">
+                        <p class="precio">$200 <span class="u-pull-right ">$53</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="9">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/imagen10.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Antioxidant 4.0 de HTN x60 cápsulas </h4>
+                     
+                        <img src="img/estrellas.png">
+                        <p class="precio">$200 <span class="u-pull-right ">$58</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                            data-id="10">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/imagen11.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Proteína Premium o Platinum Whey Protein 3 kg Star Nutrition
+                        </h4>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$200 <span class="u-pull-right ">$68</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                            data-id="11">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/imagen12.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Resveratrol 60 caps de Woman</h4>
+                        
+                        <img src="img/estrellas.png">
+                        <p class="precio">$200 <span class="u-pull-right ">$93</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                            data-id="12">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+    </div>
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="four columns">
+                    <nav id="principal" class="menu">
+                        <a class="enlace" href="#">Para tu Negocio</a>
+                        <a class="enlace" href="#">Conviertete en un Vendedor</a>
+                        <a class="enlace" href="Contactanos.html">Contactanos</a>
+                        <a class="enlace" href="#">Soporte</a>
+                        <a class="enlace" href="#">Temas</a>
+                    </nav>
+                </div>
+                <div class="four columns">
+                    <nav id="secundaria" class="menu">
+                        <a class="enlace" href="#">¿Quienes Somos?</a>
+                        <a class="enlace" href="#">Empleo</a>
+                        <a class="enlace" href="#">Blog</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
